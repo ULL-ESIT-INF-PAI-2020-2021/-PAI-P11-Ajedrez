@@ -114,17 +114,14 @@ en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 en la que se incustará un canvas para dibujar el tablero.
 Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página.
 
-Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia de la web de referencia.
-[web de referencia](https://lichess.org/) [2].
-Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
-Sustituya los enlaces y el texto de las partidas de [2] por otros que le parezcan relevantes para la
-temática de esta práctica (ajedrez).
+Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia de la web de referencia
+[web de referencia](https://lichess.org/).
 
 Diseñe asimismo otra página HTML simple 
 
-`http://10.6.129.123:8080/index.html` [3]
+`http://10.6.129.123:8080/index.html` [2]
 
 que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
-La página [1] será uno de los enlaces de [3] y a su vez [1] tendrá un enlace "Home" que apunte a [3].
-Enlace también en la página índice [3] las páginas que contienen los informes de documentación y de
+La página [1] será uno de los enlaces de [2] y a su vez [1] tendrá un enlace "Home" que apunte a [2].
+Enlace también en la página índice [2] las páginas que contienen los informes de documentación y de
 cubrimiento de código de su proyecto.
