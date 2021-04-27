@@ -77,14 +77,12 @@ Tenga en cuenta las siguientes especificaciones a la hora de diseñar su program
   También puede ver la interfaz que se pretende imitar iniciando una partida en 
   [esta página de juego on-line de ajedrez](https://lichess.org).
 	Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
+  En el directorio `img` de este proyecto puede Ud. encontrar imágenes gráficas para las figuras del juego.
+  Puede Ud. usar estas u otras si le parecen más adecuadas.
 
-  Se colocarán en la página enlaces similares a los que figuran en la página de referencia, pero en su caso
+* Se colocarán en la página enlaces similares a los que figuran en la página de referencia, pero en su caso
 	esos enlaces no estarán operativos (no enlazan a otras páginas) o en todo caso enlazarán con páginas
   alojadas en su máquina IaaS de la asignatura.
-
-Mientras que debe Ud. imitar tamaño, disposición y colores del tablero de ajedrez, las fichas no tienen porqué
-	parecerse a las de la web de referencia. 
-  Localice imagenes de fichas de ajedrez que le parezcan adecuadas para incorporarlas a su desarrollo.
 
 * Añada un pie de página (*footer*) en el que incluya información sobre la Universidad,
   titulación y asignatura.
