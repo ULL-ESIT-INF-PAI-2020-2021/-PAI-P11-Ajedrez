@@ -38,7 +38,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Todo el código estará ubicado en el directorio `src` del proyecto. Use subdirectorios de éste si le resulta
   conveniente.
 
-#### El problema de las 8 reinas
+### El problema de las 8 reinas
 En esta práctica se realizarán ejercicios relacionados con el juego del Ajedrez.
 Consulte
 [Wikipedia](https://es.wikipedia.org/wiki/Ajedrez)
