@@ -58,47 +58,14 @@ cuyo constructor toma como parámetros las posiciones de un par de reinas de la 
 `const queens = new QueenAttack({ white: [2, 4], black: [6, 6] });`
 
 ### La clase *Chess*
-En esta práctica se propone tomar como punto de partida el programa que resuelve el problema de
+Se propone tomar como punto de partida el programa que resuelve el problema de
 las 8 reinas para añadirle una interfaz gráfica basada en HTML y CSS y poder ejecutar el programa a través de esa interfaz web.
-
-Para la realización de la práctica resulta conveniente, aunque no imprescindible, que estudien mínimamente el patrón arquitectónico 
-[MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) 
-(Modelo Vista Controlador). 
-Se trata de un patrón (arquitectónico, no de diseño) independiente del lenguaje
-sobre el que resulta fácil encontrar información. 
 
 Se propone desarrollar una clase `Chess` 
 que posibilite la visualización en una página web de un tablero de ajedrez con sus figuras.
 La clase ha de encapsularse en un módulo ES6 `chess.js`.
 
-La visualización de la ejecución del programa se realizará a través de una página web alojada
-en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
-
-`http://10.6.129.123:8080/einstein-albert-chess.html` [1]
-
-en la que se incustará un canvas para dibujar el tablero.
-Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página.
-
-Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia que se muestra en esta imagen:
-![Ajedrez](https://raw.githubusercontent.com/fsande/PAI-Labs-Public-Data/master/img/p11_Chess/chess.png "Ajedrez")
-También puede ver la interfaz que se pretende imitar en 
-[esta página de juego on-line de ajedrez](https://lichess.org/MgfoDUSW/black) [2]
-que se tomará como referencia.
-Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
-Sustituya los enlaces y el texto de esta página de referencia [2] por otros que le parezcan relevantes para la
-temática de esta práctica (ajedrez).
-
-Diseñe asimismo otra página HTML simple 
-
-`http://10.6.129.123:8080/index.html` [3]
-
-que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
-La página [1] será uno de los enlaces de [3] y a su vez [1] tendrá un enlace "Home" que apunte a [3].
-Enlace también en la página índice [3] las páginas que contienen los informes de documentación y de
-cubrimiento de código de su proyecto.
-
 Tenga en cuenta las siguientes especificaciones a la hora de diseñar su programa:
-
 
 ### Especificacines de la aplicación de ajedrez
 
@@ -108,7 +75,8 @@ Tenga en cuenta las siguientes especificaciones a la hora de diseñar su program
 * Desarrolle una página web cuya interfaz gráfica se asemeje lo más posible, en cuanto a su apariencia, no en
   cuanto a sus funcionalidades, a la que se muestra en esta imagen:
 ![Ajedrez](https://raw.githubusercontent.com/fsande/PAI-Labs-Public-Data/master/img/p11_Chess/chess.png "Ajedrez")
-  También puede ver la interfaz que se pretende imitar en [esta página de juego on-line de ajedrez](https://lichess.org/MgfoDUSW/black).
+  También puede ver la interfaz que se pretende imitar al iniciar una partida en 
+  [esta página de juego on-line de ajedrez](https://lichess.org).
 	Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
 
 Se colocarán en la página enlaces similares a los que figuran en la página de referencia, pero en su caso
@@ -137,3 +105,27 @@ las piezas de una partida de ajedrez.
 	
 * No añada a la interfaz gráfica (web) de su programa otros elementos que los que se describen en esta especificación.
   Trate asimismo de ceñirse a la utilización de los elementos HTML y CSS estudiados en las clases de teoría.
+
+### Presentación de resultados
+La visualización de la ejecución del programa se realizará a través de una página web alojada
+en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
+
+`http://10.6.129.123:8080/einstein-albert-chess.html` [1]
+
+en la que se incustará un canvas para dibujar el tablero.
+Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página.
+
+Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia de la web de referencia.
+[web de referencia](https://lichess.org/) [2].
+Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
+Sustituya los enlaces y el texto de las partidas de [2] por otros que le parezcan relevantes para la
+temática de esta práctica (ajedrez).
+
+Diseñe asimismo otra página HTML simple 
+
+`http://10.6.129.123:8080/index.html` [3]
+
+que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
+La página [1] será uno de los enlaces de [3] y a su vez [1] tendrá un enlace "Home" que apunte a [3].
+Enlace también en la página índice [3] las páginas que contienen los informes de documentación y de
+cubrimiento de código de su proyecto.
