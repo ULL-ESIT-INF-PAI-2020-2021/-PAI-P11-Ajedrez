@@ -67,20 +67,20 @@ La clase ha de encapsularse en un módulo ES6 `chess.js`.
 
 Tenga en cuenta las siguientes especificaciones a la hora de diseñar su programa:
 
-### Especificacines de la aplicación de ajedrez
-
 * Comience por adaptar su programa del problema de las 8 reinas al paradigma orientado a objetos:
   identifique clases y métodos y reescriba ese programa de forma correspondiente.
 
 * Desarrolle una página web cuya interfaz gráfica se asemeje lo más posible, en cuanto a su apariencia, no en
   cuanto a sus funcionalidades, a la que se muestra en esta imagen:
+
 ![Ajedrez](https://raw.githubusercontent.com/fsande/PAI-Labs-Public-Data/master/img/p11_Chess/chess.png "Ajedrez")
-  También puede ver la interfaz que se pretende imitar al iniciar una partida en 
+  También puede ver la interfaz que se pretende imitar iniciando una partida en 
   [esta página de juego on-line de ajedrez](https://lichess.org).
 	Su página ha de imitar colores, tipografías, tamaños y distribución de los elementos.
 
-Se colocarán en la página enlaces similares a los que figuran en la página de referencia, pero en su caso
-	esos enlaces no estarán operativos (no enlazan a otras páginas).
+  Se colocarán en la página enlaces similares a los que figuran en la página de referencia, pero en su caso
+	esos enlaces no estarán operativos (no enlazan a otras páginas) o en todo caso enlazarán con páginas
+  alojadas en su máquina IaaS de la asignatura.
 
 Mientras que debe Ud. imitar tamaño, disposición y colores del tablero de ajedrez, las fichas no tienen porqué
 	parecerse a las de la web de referencia. 
@@ -89,8 +89,7 @@ Mientras que debe Ud. imitar tamaño, disposición y colores del tablero de ajed
 * Añada un pie de página (*footer*) en el que incluya información sobre la Universidad,
   titulación y asignatura.
 
-* Sustituya en su página los dos paneles a la izquierda del tablero (el panel del tipo de partida y el del
-  chat de espectador) por los nuevos elementos que se indican a continuación:
+* Añada en su página los siguientes elementos:
 
 1. Un botón `Generar solución` que al ser pulsado dibuje en el tablero sucesivas soluciones al problema de las 8
 reinas.
