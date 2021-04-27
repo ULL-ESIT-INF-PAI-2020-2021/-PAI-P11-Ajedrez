@@ -72,7 +72,6 @@ Tenga en cuenta las siguientes especificaciones a la hora de diseñar su program
 
 * Desarrolle una página web cuya interfaz gráfica se asemeje lo más posible, en cuanto a su apariencia, no en
   cuanto a sus funcionalidades, a la que se muestra en esta imagen:
-
 ![Ajedrez](https://raw.githubusercontent.com/fsande/PAI-Labs-Public-Data/master/img/p11_Chess/chess.png "Ajedrez")
   También puede ver la interfaz que se pretende imitar iniciando una partida en 
   [esta página de juego on-line de ajedrez](https://lichess.org).
